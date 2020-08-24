@@ -3,38 +3,79 @@
 <head>
 	<title>Tirth</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 </head>
 <body>
-
-<header>
-	<div class="header_menu">
-		<div class="logo"> 
-			<img src="logo.png" alt="logo"> 
-		</div>
-		<div class="menu_list">
-			<ul>
-				<li><a href="#" >home</a></li>
-				<li><a href="#">about</a> </li>
-				<li><a href="#">projects</a></li>
-				<li><a href="#">skills</a></li>
-				<li><a href="#">contact</a></li>
+	<section id="nav-bar">
+		<nav class="fixed-top navbar-transparent navbar navbar-expand-lg navbar-light">
+		  <a class="navbar-brand" href="#">
+			  <img src="logo.png" width="100" class="d-inline-block align-top" alt="" loading="lazy" href="#home">
+			</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item active" >
+				<a class="nav-link" href="#About" style="color:#373b40" onMouseOver="this.style.color='#000000'" onMouseOut="this.style.color='#373b40'">About </a>
+			  </li>
+			  <li class="nav-item active">
+				  <a class="nav-link" href="#" style="color:#373b40" onMouseOver="this.style.color='#000000'" onMouseOut="this.style.color='#373b40'">Projects</a>
+			  </li>
+			  <li class="nav-item active">
+				  <a class="nav-link" href="#" style="color:#373b40" onMouseOver="this.style.color='#000000'" onMouseOut="this.style.color='#373b40'">Skills</a>
+			  </li>
+			  <li class="nav-item active">
+				  <a class="nav-link" href="#" style="color:#373b40" onMouseOver="this.style.color='#000000'" onMouseOut="this.style.color='#373b40'">Contact</a>
+			  </li>
 			</ul>
+		  </div>
+		</nav>
+	  </section>
+<div class="header container-fluid" id="home">
+	<div class="header_content">
+		<h1>Tirth Shah</h1>
+		<h2>AR ENTHUSIAST / DATA ANALYST / APP DEVELOPER / WEB DEVELOPER</h2>
+		<div class="social_links"> 
+			<a href="#" target="_blank" > <i class="fab fa-github fa-3x social_icons"></i></a>
+			<a href="#" target="_blank"> <i class="fab fa-linkedin fa-3x social_icons"></i></a>
+			<a href="#" target="_blank"> <i class="fab fa-instagram fa-3x social_icons"></i></a>
+			<a href="#" target="_blank"> <i class="fab fa-twitter fa-3x social_icons"></i></a>
+		</div>	
+	</div>
+	<div class="box">
+		<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+		<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+	</div>
+</div>
+<div id="About">
+	<div class="container-fluid " style="padding-top:7rem;background-color:#e9ecef;padding-left: 11%;padding-right: 11%;">
+		<div class="row">
+			<div class="col-5 d-none d-lg-block align-self-center">
+				<img class="border border-secondary rounded-circle" src="https://media-exp1.licdn.com/dms/image/C5603AQEhBvEBWFO0zQ/profile-displayphoto-shrink_400_400/0?e=1603929600&v=beta&t=nMs68zdibCuubOfCYF-2NpEuGQCyePQAKVXrUv0pBIo" alt="profilepicture" style="width:350px">
+			</div>
+			<div class="col-lg-7">
+				<h2 class="display-4 mb-5 text-center">About Me</h2>
+				<p class="lead text-center">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<p class="lead text-center"><a class="btn btn-outline-dark btn-lg" href="#" target="_blank" rel="noreferrer noopener" role="button" aria-label="Resume/CV">Resume</a></p>
+			</div>
+		</div>
+
+	<div style="height:7rem;">
 		</div>
 	</div>
+</div>
+<div style="height:1000px;">
 
-	<div class="header_content">
-		<h2>AR ENTHUSIAST / DATA ANALYST / APP DEVELOPER / WEB DEVELOPER</h2>
-		<h1>Tirth Shah</h1>
-		<button><a href="#">
-			Resume
-		</a></button>
-
-		<button><a href="#">
-			....
-		</a></button>
-	</div>
-</header>
-
+</div>
 </body>
 </html>
