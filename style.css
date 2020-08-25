@@ -257,7 +257,23 @@
 		transform:  translateY(-250px) rotate(360deg);
 	}
 }
+@-webkit-keyframes animate {
+	0% {
+		transform:  translateY(0) rotate(50deg);
+	}
+	100% {
+		transform:  translateY(-250px) rotate(360deg);
+	}
+}
 @keyframes progress {
+	0% {
+		transform: scaleX(0);;
+	}
+	100% {
+		transform: scaleX(1);;
+	}
+}
+@-webkit-keyframes progress {
 	0% {
 		transform: scaleX(0);;
 	}
